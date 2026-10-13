@@ -1,0 +1,13 @@
+.logo {
+    animation: grandir 3s infinite ease-in-out;
+}
+
+@keyframes grandir {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+}
